@@ -1,8 +1,5 @@
 # 🚖 Uber-Like Ride Booking Web App
 
-![WhatsApp Image 2025-06-16 at 4 12 42 AM](https://github.com/user-attachments/assets/06ab3c87-4a3b-4567-b5f7-6bab81000f48)
-![Uploading WhatsApp Image 2025-06-16 at 4.12.43 AM.jpeg…]()
-![Uploading WhatsApp Image 2025-06-16 at 3.49.23 AM (1).jpeg…]()
 ![Uploading Screenshot 2025-06-10 131904.png…]()
 
 
