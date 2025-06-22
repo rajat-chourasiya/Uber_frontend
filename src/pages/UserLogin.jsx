@@ -51,15 +51,16 @@ const UserLogin = () => {
             onChange={(e) => {
               setEmail(e.target.value)
             }}
-            className='bg-[#eeeeee] mb-7 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base'
+            className='bg-[#eeeeee] mb-1 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base'
             type="email"
             placeholder='email@example.com'
           />
+          <p className='mb-5'>Email/User ID: <b>user@gmail.com</b></p>
 
           <h3 className='text-lg font-medium mb-2'>Enter Password</h3>
 
           <input
-            className='bg-[#eeeeee] mb-7 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base'
+            className='bg-[#eeeeee] mb-1 rounded-lg px-4 py-2 border w-full text-lg placeholder:text-base'
             value={password}
             onChange={(e) => {
               setPassword(e.target.value)
@@ -67,6 +68,7 @@ const UserLogin = () => {
             required type="password"
             placeholder='password'
           />
+          <p className='mb-5'>Password: <b>demo@123</b></p>
 
           <button
             className='bg-[#111111] hover:text-yellow-500 text-white font-semibold mb-3 rounded-lg px-4 py-2 w-full text-lg placeholder:text-base'
