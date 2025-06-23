@@ -39,7 +39,7 @@ const Home = () => {
     const [detectingLocation, setDetectingLocation] = useState(false);
     const [distance, setDistance] = useState(null)
     const [duration, setDuration] = useState(null); 
-    
+
 
     const navigate = useNavigate()
 
@@ -349,6 +349,11 @@ const Home = () => {
                             type="text"
                             placeholder='Add a pick-up location'
                         />
+
+
+
+
+
                         <input
                             onClick={() => {
                                 setPanelOpen(true)
@@ -393,7 +398,7 @@ const Home = () => {
                     duration={duration}
                     setConfirmRidePanel={setConfirmRidePanel} setVehicleFound={setVehicleFound} />
             </div>
-
+            
         {vehicleFound && (
             <div ref={vehicleFoundRef} className='fixed w-full z-10 bottom-0 translate-y-full bg-white px-3 py-6 pt-12'>
                 <LookingForDriver
@@ -407,7 +412,6 @@ const Home = () => {
                     setVehicleFound={setVehicleFound} />
             </div>
         )}
-
             {waitingForDriver && (
                 <div ref={waitingForDriverRef} className='fixed w-full  z-10 bottom-0  bg-white px-3 py-6 pt-12'>
                     <WaitingForDriver
